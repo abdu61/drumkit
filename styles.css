@@ -29,27 +29,42 @@ main{
 .keys {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
   
 .key {
-    border: .4rem solid black;
-    border-radius: .5rem;
+    border: .4rem solid hsl(0, 0%, 35%);
+    border-radius: .6rem;
+    box-shadow: 0.1rem .4rem 1.1rem black;
     margin: 1rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
+    font-size: 1rem;
+    padding: 0.8rem .4rem;
     transition: all .07s ease;
-    width: 10rem;
+    width: 6rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    background: hsl(0, 0%, 35%);
+    text-shadow: 0.3rem 0.2rem 0.46rem black;
 }
 
 kbd {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1a72f7;;
 }
 
 footer{
