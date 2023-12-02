@@ -1,9 +1,60 @@
 body{
     margin: 0;
     text-align: center;
+    color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+header{
+    background-color:#000000;
+}
 
+header h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 44px;
+    color: #1a72f7;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #242424;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+  
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+footer{
+    background: #000000;
+    padding: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #1a72f7;
+}
