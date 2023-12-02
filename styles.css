@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
-    background: url('../images/background.jpg') bottom center;
+    background: url('background.jpg') bottom center;
     background-color: black;
     background-size: cover;
 }
