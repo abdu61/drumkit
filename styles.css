@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    color: #e3f2ff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color:#000000;
+    padding: 10px 0px;
+}
+
+header h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 44px;
+    color: #1a72f7;
+}
+
+footer{
+    background: #000000;
+    padding: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #1a72f7;
+}
